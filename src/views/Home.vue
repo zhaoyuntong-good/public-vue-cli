@@ -20,7 +20,17 @@ export default {
   	}
   },
   created(){
-  	this.theGetUnit()
+    let params = {
+      isContains: -1
+    }
+    this.theGetUnit()
+    // Promise.all([login(params),getUnits(params)])
+    //   .then( res => {
+    //     console.log(res)
+    //   })
+    //   .catch( err => {
+    //     console.log('有出错的请求')
+    //   })
   },
   methods: {
   	async theGetUnit(){
@@ -30,7 +40,7 @@ export default {
       const respons = await getUnits(params);
       console.log(respons)
       const res = await login(params);
-      
+      console.log(res)
     }
   }
 }
