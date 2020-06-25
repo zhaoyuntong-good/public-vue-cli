@@ -1,0 +1,19 @@
+{
+  "name": "vue-base-dialog",
+  "version": "0.0.1",
+  "description": "Dialog for Vue.js",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "base",
+    "dialog"
+  ],
+  "author": "zhaoyuntong",
+  "license": "ISC"
+}
