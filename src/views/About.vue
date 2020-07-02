@@ -11,7 +11,6 @@ export default {
   	return {}
   },
   created(){
-    // this.theGetUnit()
   },
   methods: {
     
