@@ -8,7 +8,7 @@
     "build:test": "vue-cli-service build --mode test --report"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.4",
     "element-ui": "^2.13.1",
     "highcharts": "^8.1.2",
